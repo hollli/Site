@@ -470,9 +470,13 @@ nav {
 /*}*/
 .carousel-inner{
   margin-top: 50px;
+  border-radius: 10px;
 }
 a:hover {
 
   color: #FD7014 !important;
 }
 
+.left.carousel-control, .right.carousel-control {
+  border-radius: 10px;
+}
