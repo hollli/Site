@@ -12,9 +12,9 @@
    ========================================================================== */
 
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+  color: #222 !important;
+  font-size: 1em !important;
+  line-height: 1.4 !important;
 }
 
 /*
@@ -28,13 +28,13 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+  background: #b3d4fc !important;
+  text-shadow: none !important;
 }
 
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+  background: #b3d4fc !important;
+  text-shadow: none !important;
 }
 
 /*
@@ -42,12 +42,12 @@ html {
  */
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+  display: block !important;
+  height: 1px !important;
+  border: 0 !important;
+  border-top: 1px solid #ccc !important;
+  margin: 1em 0 !important;
+  padding: 0 !important;
 }
 
 /*
@@ -62,7 +62,7 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle;
+  vertical-align: middle !important;
 }
 
 /*
@@ -70,9 +70,9 @@ video {
  */
 
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /*
@@ -80,7 +80,7 @@ fieldset {
  */
 
 textarea {
-  resize: vertical;
+  resize: vertical !important;
 }
 
 /* ==========================================================================
@@ -110,15 +110,15 @@ textarea {
  */
 
 .sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+  border: 0 !important;
+  clip: rect(0, 0, 0, 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important;
   /* 1 */
 }
 
@@ -130,13 +130,13 @@ textarea {
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
+  clip: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  position: static !important;
+  white-space: inherit !important;
+  width: auto !important;
 }
 
 /*
@@ -144,7 +144,7 @@ textarea {
  */
 
 .invisible {
-  visibility: hidden;
+  visibility: hidden !important;
 }
 
 /*
@@ -161,12 +161,12 @@ textarea {
 
 .clearfix::before,
 .clearfix::after {
-  content: " ";
-  display: table;
+  content: " " !important;
+  display: table !important;
 }
 
 .clearfix::after {
-  clear: both;
+  clear: both !important;
 }
 
 /* ==========================================================================
@@ -197,23 +197,23 @@ textarea {
   *::before,
   *::after {
     background: #fff !important;
-    color: #000 !important;
+    color: #000 !important ;
     /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
+    box-shadow: none  !important;
+    text-shadow: none  !important;
   }
 
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: underline !important;
   }
 
   a[href]::after {
-    content: " (" attr(href) ")";
+    content: " (" attr(href) ")" !important;
   }
 
   abbr[title]::after {
-    content: " (" attr(title) ")";
+    content: " (" attr(title) ")" !important;
   }
 
   /*
@@ -222,7 +222,7 @@ textarea {
    */
   a[href^="#"]::after,
   a[href^="javascript:"]::after {
-    content: "";
+    content: "" !important;
   }
 
   pre {
@@ -231,8 +231,8 @@ textarea {
 
   pre,
   blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
+    border: 1px solid #999 !important;
+    page-break-inside: avoid !important;
   }
 
   /*
@@ -240,24 +240,38 @@ textarea {
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
    */
   thead {
-    display: table-header-group;
+    display: table-header-group !important;
   }
 
   tr,
   img {
-    page-break-inside: avoid;
+    page-break-inside: avoid !important;
   }
 
   p,
   h2,
   h3 {
-    orphans: 3;
-    widows: 3;
+    orphans: 3 !important;
+    widows: 3 !important;
   }
 
   h2,
   h3 {
-    page-break-after: avoid;
+    page-break-after: avoid !important;
   }
 }
 
+.item{
+  height: 500px !important;
+  object-fit: cover !important;
+}
+img{
+  /*max-width: 30% !important !important;*/
+}
+.container{
+  width: 400px !important;
+}
+/*.carousel-inner {*/
+/*  position: relative !important;*/
+/*  width: 253% !important; !important !important;*/
+/*}*/
