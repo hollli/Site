@@ -42,7 +42,7 @@ nav {
   align-items: center!important;
   height: 65px!important;
   width: 100%!important;
-  grid-template-columns: 10em 10em 10em 25em 28em!important;
+  grid-template-columns: 10em 10em 10em 25em 15em 18em;
 
 }
 

@@ -42,7 +42,7 @@ nav {
   align-items: center;
   height: 65px;
   width: 100%;
-  grid-template-columns: 10em 10em 10em 25em 28em;
+  grid-template-columns: 10em 10em 10em 25em 15em 18em;
 
 }
 
@@ -402,5 +402,10 @@ nav {
   margin-top: 20px;
 }
 
-
+/*.VIpgJd-ZVi9od-l4eHX-hSRGPd{*/
+/*  display: none;*/
+/*}*/
+/*.targetLanguage{*/
+/*       display: none;*/
+/*     }*/
 /*body elements (END)*/
